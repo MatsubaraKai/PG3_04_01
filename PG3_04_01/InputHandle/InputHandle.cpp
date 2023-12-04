@@ -1,10 +1,8 @@
 #include "InputHandle.h"
 #include "Command/MoveLeftCommand/MoveLeftCommand.h"
 #include "Command/MoveRightCommand/MoveRightCommand.h"
-#include "MoveUpCommand.h"
-#include "MoveDownCommand.h"
-#include "MoveUpCommand.h"
-#include "MoveDownCommand.h"
+#include "Command/MoveUpCommand/MoveUpCommand.h"
+#include "Command/MoveDownCommand/MoveDownCommand.h"
 #include <Novice.h>
 
 ICommand* InputHandle::HandleInput()

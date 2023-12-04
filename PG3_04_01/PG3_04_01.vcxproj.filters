@@ -50,10 +50,10 @@
     <ClCompile Include="Command\MoveRightCommand\MoveRightCommand.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="MoveUpCommand.cpp">
+    <ClCompile Include="Command\MoveUpCommand\MoveUpCommand.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="MoveDownCommand.cpp">
+    <ClCompile Include="Command\MoveDownCommand\MoveDownCommand.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -134,7 +134,7 @@
     <ClInclude Include="Command\ICommand\ICommand.h" />
     <ClInclude Include="Command\MoveLeftCommand\MoveLeftCommand.h" />
     <ClInclude Include="Command\MoveRightCommand\MoveRightCommand.h" />
-    <ClInclude Include="MoveUpCommand.h" />
-    <ClInclude Include="MoveDownCommand.h" />
+    <ClInclude Include="Command\MoveUpCommand\MoveUpCommand.h" />
+    <ClInclude Include="Command\MoveDownCommand\MoveDownCommand.h" />
   </ItemGroup>
 </Project>
